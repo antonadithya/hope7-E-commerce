@@ -1,0 +1,337 @@
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .contact-container{
+    justify-content: center;
+    gap: 14rem;
+  }
+ 
+}
+
+ /* Media Query for Laptops and Desktops */
+ @media (min-width: 1087px) and (max-width: 1280px){
+  
+  .home-section h1{
+    font-size: 24px;
+  }
+  .nav-bar{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .footer-container span {
+    margin-right: 100px;
+    margin-left: 100px;
+
+  }
+
+
+}
+
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 910px) and (max-width: 1086px){
+ 
+  .home-section h1{
+    font-size: 31px;
+  }
+  .nav-bar{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .footer-container span {
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+  .navbar-list a{
+    margin: 0 15px 0 15px;
+  }
+
+  .shopList-container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-content{
+    margin-left: 0px;
+  }
+  .home-section h1{
+    font-size: 31px;
+  }
+}
+
+ /* Media Query for low resolution  Tablets, Ipads */
+ @media (min-width: 790px) and (max-width: 909px) {
+  
+
+  .desktop-header{
+    display: none;
+  }
+
+  .mobile-header{
+    display: flex;
+  }
+
+  .shopList-container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .home-section h1 {
+    font-size: 23px;
+  }
+
+  .shope-section{
+    margin-top: 0px;
+  }
+
+  .home-section h2{
+    font-size: 16px;
+  }
+  .shope-section h3 {
+    margin-top: 0px;
+  }
+
+  .contact-content{
+    margin-left: 0px;
+  }
+
+  .footer-container span {
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+  .navbar-list a{
+    margin: 0 15px 0 15px;
+  }
+  .footer-container span {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+.navbar-list a {
+  margin: 0px 6px 0 6px;
+  font-size: 14px;
+}
+.section-service .service-container{
+  margin-top: 52px
+}
+section h4{
+  font-size: 13px;
+}
+
+.service-box p{
+  font-size:11px ;
+}
+
+.about-section .ourMission p{
+  font-size: 14px;
+}
+.about-section .about p{
+  font-size: 14px;
+}
+footer{
+  margin-top: 100px;
+}
+
+ }
+
+  /* Media Query for Mobile Devices */
+  @media(max-width: 789px){
+   
+    
+    .desktop-header{
+      display: none;
+    }
+  
+    .mobile-header{
+      display: flex;
+    }
+  
+    .shopList-container{
+      grid-template-columns: 1fr;
+    }
+  
+    .home-section h1 {
+      font-size: 13px;
+    }
+  
+    .shope-section{
+      margin-top: 0px;
+    }
+  
+    .home-section h2{
+      font-size: 9px;
+    }
+    .shope-section h3 {
+      margin-top: 0px;
+    }
+  
+    .contact-content{
+      margin-left: 0px;
+    }
+  
+    .footer-container span {
+      margin-right: 40px;
+      margin-left: 40px;
+  
+    }
+    .navbar-list a{
+      margin: 0 15px 0 15px;
+    }
+    .footer-container span {
+      margin-right: 15px;
+      margin-left: 15px;
+      font-size: 9px;
+      text-align: center;
+      padding-top: 30px;
+  }
+  .navbar-list a {
+    margin: 0px 3px 0 3px;
+    font-size: 11px;
+  }
+  .section-service .service-container{
+    margin-top: 52px
+  }
+  section h4{
+    font-size: 13px;
+  }
+  section h3{
+    font-size: 1.1rem;
+  }
+  
+  
+  .service-box p{
+    font-size:11px ;
+  }
+  
+  .about-section .ourMission p{
+    font-size: 11px;
+  }
+  .about-section .about p{
+    font-size: 11px;
+    text-align: justify;
+  }
+  footer{
+    margin-top: 100px;
+  }
+ 
+  .home-section .cta-button {
+    margin-top: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    font-size: 7px;
+}
+
+.home-section {
+  margin-top: -116px;
+  margin-bottom: -180px;
+}
+
+.shope-section h3 {
+  font-size: 14px;
+}
+
+.section-service .service-container{
+  display: block;
+}
+
+.service-container .service-box{
+  margin-bottom: 20px;
+}
+
+.footer-social .bx {
+  font-size: 13px;
+}
+footer {
+  padding: 0 15px;
+  margin-top: 0;
+}
+
+.contact-map {
+  width: 250px;
+  height: 200px;
+}
+
+
+.home-section .hero-content {
+  margin-left: 16px;
+}
+
+.slideshow-container{
+  margin-left: 0;
+}
+
+.contact-container {
+  display: block;
+  margin-top: 22px
+
+}
+
+.contact-container .contact-content,.contact-map{
+  margin: auto;
+}
+
+.contact-container .contact-content{
+  margin-bottom: 20px;
+  line-height: 10px;
+
+}
+
+.about-section{
+  margin-top: 1rem;
+}
+
+
+  }
+  
+@media(max-width:909px){
+  
+.sidenav-bar{
+
+  position: fixed;
+  width: 35vh;
+  height: 100%;
+  margin-top: 190px;
+  z-index: 10;
+  flex-direction: column;
+  padding-left: 60px;
+  backdrop-filter: blur(10px);
+  list-style-type: none;
+
+  }
+   a{
+    color: black;
+  }
+  #menu-icon{
+    display: block;
+    cursor: pointer;
+    color: black;
+    height: 30px;
+    width: 35px;
+  }
+  
+  #menu-icon .bx{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+  }
+
+  .sidenav-bar.active{
+    display: flex;
+  }
+  ul li{
+    padding-top: 30px;
+  }
+  ul{
+    display: flex;
+  }
+
+  .mobile-header .social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-icon a{
+    padding-bottom: 20px;
+}
+
+
+}

@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  
+}
+body{
+  background-color:lightgrey;
+  right: 0%;
+}
+
+
+
+header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 6%;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color:lightgrey ;
+  z-index: 100;
+}
+.logo{
+  display: flex;
+ flex-direction: column;
+}
+
+.logo a{
+  color: black;
+  letter-spacing: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+
+  
+}
+
+.logo .small-logo {
+  font-size: 9px;
+  font-weight: 300;
+  letter-spacing: 9px;
+  padding-top: 0;
+}
+
+
+
+.nav-bar{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.nav-bar a{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 16px;
+  margin-right: 10px;
+  color: black;
+  font-weight: 300;
+ transition: all;
+}
+.nav-bar a li:hover{
+  color: teal;
+}
+
+.social-icon{
+  display: flex;
+  padding-right: 0;
+
+ 
+}
+.social-icon ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.social-icon  a{
+  padding: 0 9px;
+  text-decoration: none;
+  color: black;
+  font-size:20px ;
+}
+.social-icon  a :hover{
+  color: teal;
+}
+
+section{
+  background-color:lightgray;
+   padding:0 6% ;
+   right: 0;
+  
+}
+
+
+/*home section*/
+
+
+.home-section{
+  margin-top: 19px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1rem;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 100;
+}
+
+.home-section .hero-content{
+  margin-left: 40px;
+}
+
+.slideshow-container{
+  position: relative;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-containe .mySlides{
+  position: relative;
+  max-width: 455px;
+  height: 550px;
+}
+.mySlides img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.home-section h1{
+  font-weight: 500;
+  font-size: 42px;
+  text-decoration: none;
+  color:black;
+}
+
+.home-section h2{
+  margin-top: 12px;
+  color: rgb(67, 97, 36);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.home-section .cta-button{
+  margin-top: 20px;
+  padding: 12px 18px;
+  background-color: 	#000000;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+  transition: all 0.2S;
+}
+
+.cta-button:hover{
+  transform: scale(1.2) translateY(9px);
+}
+
+
+/*shop section*/
+
+.shope-section{
+  margin-top: 19px;
+}
+.shope-section h3{
+  font-weight: 700;
+  text-align: center;
+  margin-top: 19px;
+}
+
+.shopList-container{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-column-gap: 10px;
+  grid-row-gap: 70px;
+  margin-top: 50px;
+  right: 0;
+}
+.shopList-container .box{
+  justify-content: center;
+  align-items: center;
+  width:  350px;
+  height: 530px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.5) ;
+}
+
+
+.box img {
+  width: 100%;
+  height: 410px;
+  object-fit: cover;
+ 
+}
+
+
+
+.shopList-container .order-btn{
+  background-color: #25d366;
+  border: none;
+  color: #fff;
+  padding: 6px 9px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all .3s;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.5) ;
+}
+
+
+.order-btn .bxl-whatsapp{
+  font-size: 20px;
+}
+
+.order-btn:hover{
+  background-color: #1d5f35;
+  font-size:10px ;
+}
+
+/*service section*/
+
+.section-service{
+  margin-top: 5.6rem;
+}
+
+.section-service h3{
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-service .service-container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-grow: inherit;
+  margin-top: 70px;
+  gap: 30px;
+}
+.service-container .service-box{
+  height: auto;
+  
+}
+
+.service-box p{
+  font-size: 0.9rem;
+  list-style-position:outside;
+  color: #161616;
+  text-align: center;
+}
+
+
+footer{
+  margin-top: 150px;
+  width: 100%;
+  height: 100px;
+  background-color: #161616;
+  display: flex;
+  padding: 0 6%;
+
+}
+footer .footer-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-container .navbar-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+ 
+}
+.navbar-list a{
+ margin: 0 20px 0 20px;
+ color:rgb(255, 255, 255);
+ transition:all .3s;
+}
+
+.navbar-list a:hover{
+  color:teal ;
+}
+.footer-container span{
+  color: #fff;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+
+
+
+.contact-section{
+  margin-top: 5.6rem;
+}
+
+
+section h3{
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+section h4{
+color: #000000;
+}
+
+
+.contact-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.contact-content{
+  margin-left: 5rem;
+  line-height: 2rem;
+  font-size: 15px;
+}
+
+.contact-content ul{
+  display: contents;
+ list-style-type: none;
+
+}
+
+
+.about-section{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+
+}
+
+.about-section .about p{
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  
+}
+.about-section .ourMission{
+  margin-top: 8rem;
+}
+.about-section .ourMission p{
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.contact-map{
+  width: 350px;
+  height: 300px;
+}
+.contact-map iframe{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mobile-header{
+  display: none;
+}
+
+.sidenav-bar {
+  display: none
+}
+
+
+
+
+
+
+
+
+/*animation*/
+
+.logo a
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    black 0%,
+    white 29%,
+    rgb(39, 66, 11)45%,
+    black 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
