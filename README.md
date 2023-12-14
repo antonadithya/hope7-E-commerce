@@ -8,7 +8,7 @@
 
 [https://antonadithya.github.io/hope7/](https://antonadithya.github.io/hope7/)
 
-<h2>Project Screenshots:</h2>
+<h2>📷 Project Screenshots:</h2>
 <div style="text-align: center;">
   <img src="img/phonex.png" alt="project-screenshot" width="" height="">
   <img src="img/phone.png" alt="project-screenshot" width="65%" height="auto">
@@ -30,6 +30,6 @@ Technologies used in the project:
 
 This project is licensed under the This project is licensed under the MIT License.
 
-<h2>💖Like my work?</h2>
+<h2>🥰 Like my work?</h2>
 
 <p><a href="https://www.buymeacoffee.com/AntonAdithya"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="AntonAdithya"></a></p>
