@@ -11,7 +11,7 @@
 <h2>📷 Project Screenshots:</h2>
 <div style="text-align: center;">
   <img src="img/phonex.png" alt="project-screenshot" width="" height="">
-  <img src="img/phone.png" alt="project-screenshot" width="65%" height="auto">
+  <img src="img/phone.png" alt="project-screenshot" width="50%" height="auto">
 </div>
 
 
