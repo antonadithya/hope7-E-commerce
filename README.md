@@ -9,12 +9,13 @@
 [https://antonadithya.github.io/hope7/](https://antonadithya.github.io/hope7/)
 
 <h2>Project Screenshots:</h2>
+<div style="text-align: center;">
+  <img src="img/phonex.png" alt="project-screenshot" width="" height="">
+  <img src="img/phone.png" alt="project-screenshot" width="65%" height="auto">
+</div>
 
-<img src="img/mobile1.img" alt="project-screenshot" width="" height="/">
 
-<img src="img/mobile2.png" alt="project-screenshot" width="100%" height="100%/">
 
-<img src="img/phone.png" alt="project-screenshot" width="100%" height="100%/">
 
 
 <h2>💻 Built with</h2>
